@@ -1,4 +1,4 @@
-# AD_2026Q4
+# proyecto integrador 3
 
 epositorio de referencia: un notebook ejecutable por clase que deja un resumen `.txt` en `reportes/`.
 
