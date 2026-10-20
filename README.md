@@ -1,4 +1,4 @@
-#análisis de datos
+# análisis de datos
 
 epositorio de referencia: un notebook ejecutable por clase que deja un resumen `.txt` en `reportes/`.
 
