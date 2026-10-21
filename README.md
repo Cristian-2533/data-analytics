@@ -1,4 +1,4 @@
-# proyecto integrador 3
+# análisis de datos
 
 epositorio de referencia: un notebook ejecutable por clase que deja un resumen `.txt` en `reportes/`.
 
