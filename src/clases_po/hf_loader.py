@@ -14,8 +14,7 @@ class HFDatasetLoader:
 
     Args:
         dataset_name: Identificador del dataset en Hugging Face. Puede ser,
-            por ejemplo, ``"Fast_Food_Restaurants"`` si ese es el nombre del
-            repositorio del dataset.
+            por ejemplo, ``"scikit-learn/iris"``.
         config: Configuración del dataset, si tiene más de una.
         split: División que se desea cargar.
         token: Token de Hugging Face para datasets privados.

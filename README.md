@@ -5,7 +5,7 @@ epositorio de referencia: un notebook ejecutable por clase que deja un resumen `
 ## Estructura
 
 ```
-src/rp_utils/            Clases reutilizables
+src/clases_po/           Clases reutilizables
   reporting.py           ClassReport: genera el resumen .txt de cada notebook
   hf_loader.py           HFDatasetLoader: conexión automática a Hugging Face y exportación
   summarizer.py          DatasetSummarizer: resumen de un DataFrame
@@ -119,11 +119,11 @@ huggingface-cli login
 Después de iniciar sesión, no es necesario pasar el token al constructor:
 
 ```python
-from rp_utils import HFDatasetLoader
+from clases_po import HFDatasetLoader
 
 loader = HFDatasetLoader(
-    dataset_name="JasonZhouTI/Fast_Food_Restaurants",
-    filename="datos/fast_food.csv",
+    dataset_name="usuario/mi-dataset-privado",
+    filename="datos/mi_dataset.csv",
 )
 df = loader.load()
 ```
@@ -140,11 +140,11 @@ opcionales; si se proporciona `filename`, el DataFrame también se guarda en
 `csv`, `json`, `parquet` o `xlsx`.
 
 ```python
-from rp_utils import HFDatasetLoader
+from clases_po import HFDatasetLoader
 
 loader = HFDatasetLoader(
-    "Fast_Food_Restaurants",
-    filename="datos/fast_food.csv",
+    "scikit-learn/iris",
+    filename="datos/iris.csv",
 )
 df = loader.load()
 ```
@@ -160,11 +160,11 @@ También se puede ejecutar directamente desde la terminal:
 
 ```bash
 PYTHONPATH=src python -c '
-from rp_utils import HFDatasetLoader
+from clases_po import HFDatasetLoader
 
 df = HFDatasetLoader(
-    "Fast_Food_Restaurants",
-    filename="datos/fast_food.csv",
+    "scikit-learn/iris",
+    filename="datos/iris.csv",
 ).load()
 
 print(df.head())
@@ -175,7 +175,7 @@ También se puede indicar el formato explícitamente:
 
 ```python
 loader = HFDatasetLoader(
-    "Fast_Food_Restaurants",
-    filename="datos/fast_food",
+    "scikit-learn/iris",
+    filename="datos/iris",
     file_type="parquet",
 )
