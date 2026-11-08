@@ -56,6 +56,14 @@ AE2/
 
 **JSON:** se actualizó `problem.context` del primer registro, se agregó 1 registro nuevo y se eliminó el registro `DA_OQ336` (80 → 80 registros).
 
+
 ## Autoría
 
-Actividad desarrollada por el estudiante responsable de AE2 como parte del trabajo en equipo.
+Estudiantes integrantes del grupo:
+- SANTIAGO LONDOÑO RÚA
+- CRISTIAN MATEO PIEDRAHITA ARANGO
+- DONALDO ANDRÉS OTALVARO GUERRA
+
+INSTITUCIÓN UNIVERSITARIA DIGITAL DE ANTIOQUIA 
+Materia: Analítica de Datos – Unidad 1 – AE2
+AÑO 2026-2
