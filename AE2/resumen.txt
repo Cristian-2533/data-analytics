@@ -1,0 +1,41 @@
+RESUMEN DE LA EJECUCIÓN - AE2: Manejo de archivos CSV y JSON
+Generado el: 2026-11-07 20:51:11
+============================================================
+
+FORMATO: CSV
+------------------------------------------------------------
+URL de origen:        https://huggingface.co/datasets/deep-principle/science_biology/blob/main/crispr_delivery.csv
+Archivo importado:    datos/crispr_delivery.csv
+Archivo guardado:     datos/crispr_delivery_modificado.csv
+Clase utilizada:      ManejadorCSV
+Métodos utilizados:   importar, mostrar, buscar_indice, actualizar_valor, agregar_registro, eliminar_registro, guardar, resumen
+Registros originales: 20
+Registros finales:    20
+Columnas/claves:      Question, USER_MESSAGE, option_a_score, option_b_score, option_c_score, option_d_score, option_e_score, option_f_score, Domain, Difficulty, Type, Task, source_ref, contributor
+Modificaciones realizadas:
+  1. Actualizar valor: fila 1, columna 'USER_MESSAGE': 'I hope to edit primar NK cell' -> 'I hope to edit primary NK cell'
+  2. Actualizar valor: fila 4, columna 'USER_MESSAGE': 'I hope to edit primary hematopeotic stem cells' -> 'I hope to edit primary hematopoietic stem cells'
+  3. Actualizar valor: fila 14, columna 'USER_MESSAGE': 'I hope to edit A549 cell line. ' -> 'I hope to edit A549 cell line'
+  4. Agregar registro al final (posición 20): ['You are an expert in CRISPR...', 'I hope to edit zebrafish em...', '0', '1', '1', '2', '0', '0', 'Biology', 'medium', 'Advance Reasoning', 'CRISPR-GPT gene-editing bench', 'agregado en AE2', 'estudiante AE2']
+  5. Eliminar registro de la posición 6: ['You are an expert in CRISPR...', 'I hope to edit BMDC cells'] ...
+
+FORMATO: JSON
+------------------------------------------------------------
+URL de origen:        https://huggingface.co/datasets/KeepaceAI/MoveBench/blob/main/questions.json
+Archivo importado:    datos/questions.json
+Archivo guardado:     datos/questions_modificado.json
+Clase utilizada:      ManejadorJSON
+Métodos utilizados:   importar, mostrar, actualizar_valor, agregar_registro, buscar_indice, eliminar_registro, guardar, resumen
+Registros originales: 80
+Registros finales:    80
+Columnas/claves:      domain, problem, problem_id, question_format
+Modificaciones realizadas:
+  1. Actualizar valor: registro 0, clave 'problem.context': '用户基本信息：男性，29岁，身高175cm，体重88kg（BMI 28.7，属于肥胖），目前暂无明确的长期运动目标...' -> '用户基本信息：男性，29岁，身高175cm，体重88kg（BMI 28.7，属于肥胖），目前暂无明确的长期运动目标...'
+  2. Agregar registro al final (posición 80): {"problem_id": "AE2_DEMO_001", "problem": {"context": "Registro agregado como...
+  3. Eliminar registro de la posición 5: {"problem_id": "DA_OQ336", "problem": {"context": "男，28岁，身高175cm，体重78kg。我平时没什...
+
+============================================================
+Registros procesados (originales, ambos formatos): 100
+Registros resultantes (finales, ambos formatos):   100
+
+Este resumen fue generado por código con la clase GeneradorResumenTXT (método construir).
