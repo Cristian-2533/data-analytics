@@ -30,7 +30,7 @@ AE2/
     └── questions_modificado.json        # JSON modificado
 ```
 
-## Cómo ejecutar
+## ¿Cómo ejecutar?
 
 1. Tener Python 3.9 o superior y Jupyter:
    ```
@@ -44,7 +44,7 @@ AE2/
 4. Ejecutar todas las celdas en orden (*Kernel → Restart & Run All*).
 5. Al terminar se crean/actualizan `datos/crispr_delivery_modificado.csv`, `datos/questions_modificado.json` y `resumen.txt`.
 
-## Qué hace cada clase
+## ¿Qué hace cada clase?
 
 - **`ManejadorCSV`**: `importar()` (csv.reader), `mostrar()`, `buscar_indice()`, `actualizar_valor()`, `agregar_registro()`, `eliminar_registro()`, `guardar()` (csv.writer) y `resumen()`.
 - **`ManejadorJSON`**: los mismos métodos, con `json.load` / `json.dump`; permite rutas con puntos para datos anidados (por ejemplo `problem.context`).
