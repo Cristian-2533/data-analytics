@@ -5,8 +5,8 @@ Actividad de Analítica de Datos para comparar datos climáticos de Medellín y 
 ## Estructura de carpetas
 
 ```text
-AE3_comparacion_climatica/
-├── AE3_Piedrahita_Cristian_y_Londoño_Santiago.ipynb
+EA3_comparacion_climatica/
+├── EA3_Piedrahita_Cristian_y_Londoño_Santiago.ipynb
 ├── README.md
 ├── borradores/
 │   ├── .gitkeep
