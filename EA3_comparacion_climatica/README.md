@@ -2,7 +2,14 @@
 
 Actividad S30 (Unidad 2, Evidencia de Aprendizaje 3) de Analítica de Datos. Se comparan, con NumPy y gráficas de Matplotlib, las temperaturas y la precipitación diarias de **Medellín (Colombia)** y **Kampala (Uganda)** durante todo el año 2025.
 
-**Integrantes:** Cristian Piedrahita y Santiago Londoño.
+## Integrantes
+
+| Integrante | Rol |
+|---|---|
+| Cristian Mateo Piedrahita | Estudiante |
+| Santiago Londoño | Estudiante |
+
+Actividad S30, Unidad 2, Evidencia de Aprendizaje 3 (EA3) de Analítica de Datos. Trabajo en pareja.
 
 ## Pregunta guía
 
